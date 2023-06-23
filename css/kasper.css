@@ -890,6 +890,7 @@ header .src-icon i {
     padding: 15px 35px;
     border: 2px solid var(--main-color);
     margin-top: 20px;
+    font-weight: 600;
 }
 .pricing .container > button:hover {
     color: var(--main-color);
