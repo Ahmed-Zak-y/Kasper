@@ -103,8 +103,8 @@ header .container {
     border-bottom: 1px solid white;
 }
 header a img {
-    max-width: 112px;
-    max-height: 36px;
+    width: 112px;
+    height: 36px;
 }
 header nav {
     display: flex;
@@ -349,8 +349,8 @@ header .src-icon i {
     z-index: 1;
 }
 .design .design-img img {
-    max-width: 338px;
-    max-height: 462px;
+    width: 338px;
+    height: 462px;
 }
 .design .txt-box {
     position: absolute;
@@ -566,12 +566,12 @@ header .src-icon i {
     bottom: -120px;
 }
 .about img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 @media (max-width: 767px) {
     .about img {
-        margin-top: -60px;
+        margin-top: -25px;
         bottom: -60px;
     }
 }
@@ -1080,8 +1080,8 @@ header .src-icon i {
 }
 .footer img {
     margin: 60px auto 30px;
-    max-width: 112px;
-    max-height: 36px;
+    width: 112px;
+    height: 36px;
 }
 .footer h4 {
     padding: 20px;
