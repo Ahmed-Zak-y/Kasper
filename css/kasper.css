@@ -1,5 +1,5 @@
 :root {
-    --main-color: #00c7fc;
+    --main-color: #3924ad;
     --transparent-color: rgb(15 116 143 / 50%);
     --section-heading-color: #1f2021;
     --pale-font-color: #a8a8a8;
@@ -81,7 +81,7 @@ ul {
 }
 .section-headings p {
     font-size: 13px;
-    color: var(--pale-font-color);
+    color: #07090c;
     margin-top: 40px;
     margin-bottom: 70px;
     max-width: 480px;
@@ -131,7 +131,7 @@ header ul {
         text-align: center;
     }
     header nav:hover i.fa-bars {
-        color: var(--main-color);
+        color: #96aedb;
     }
     header nav:hover ul {
         display: block;
@@ -151,14 +151,14 @@ header ul a {
     font-size: 15px;
 }
 header ul a:hover {
-    color: var(--main-color);
+    color: #96aedb;
 }
 header ul a:hover::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 1.25px;
-    background-color: var(--main-color);
+    background-color: #96aedb;
     left: 0;
     bottom: -26.75px;
     z-index: 2;
@@ -268,8 +268,8 @@ header .src-icon i {
     border-radius: 50%;
 }
 .landing ul li.active {
-    border: 2px solid var(--main-color);
-    background-color: var(--main-color);
+    border: 2px solid #96aedb;
+    background-color: #96aedb;
 }
 @media (max-width: 767px) {
     .landing i {
@@ -302,7 +302,7 @@ header .src-icon i {
     font-weight: normal;
 }
 .services .srv-box p {
-    color: var(--pale-font-color);
+    color: #07090c;
     line-height: 1.8;
     font-size: 13px;
 }
@@ -617,7 +617,7 @@ header .src-icon i {
     font-weight: bold;
     margin: 25px auto;
 }
-.stats .box h4 {
+.stats .box h2 {
     font-size: 13px;
     font-weight: 300;
     margin-bottom: 25px;
@@ -661,7 +661,7 @@ header .src-icon i {
     font-size: 13px;
     font-weight: 300;
     line-height: 2;
-    color: var(--pale-font-color);
+    color: #07090c;
 }
 .testskills .mini-testi {
     display: flex;
@@ -703,7 +703,7 @@ header .src-icon i {
     position: absolute;
     right: 0;
     bottom: 0;
-    color: var(--pale-font-color);
+    color: #07090c;
     font-weight: 300;
 }
 .testskills ul {
@@ -1027,24 +1027,24 @@ header .src-icon i {
         margin: 0 auto;
     }
 }
-.contact-us h4 {
+.contact-us h3 {
     font-size: 13px;
     font-weight: normal;
     color: var(--section-heading-color);
     margin-bottom: 30px;
 }
-.contact-us h4:last-of-type {
+.contact-us h3:last-of-type {
     margin-top: 100px;
 }
 @media (max-width: 767px) {
-    .contact-us h4:last-of-type {
+    .contact-us h3:last-of-type {
         margin-top: 50px;
     }
 }
 .contact-us .phone,
 .contact-us address {
     font-size: 13px;
-    color: var(--pale-font-color);
+    color: #07090c;
 }
 .footer {
     background-image: url(../images/last.jpg);
@@ -1081,6 +1081,6 @@ header .src-icon i {
     margin: 20px;
 }
 .footer span {
-    color: var(--main-color);
+    color: #96aedb;
     font-weight: 600;
 }

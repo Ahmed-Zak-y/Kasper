@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="this is a kasper template clone">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -228,22 +229,22 @@
             <div class="box">
                 <i class="fa-solid fa-mug-hot"></i>
                 <p class="num">1,263</p>
-                <h4>Coffee Drinks</h4> 
+                <h2>Coffee Drinks</h2> 
             </div>
             <div class="box">
                 <i class="fa-regular fa-folder-open"></i>
                 <p class="num">256</p>
-                <h4>Completed Projects</h4>
+                <h2>Completed Projects</h2>
             </div>
             <div class="box">
                 <i class="fa-solid fa-envelope-open-text"></i>
                 <p class="num">1,743</p>
-                <h4>Mail Sent</h4>
+                <h2>Mail Sent</h2>
             </div>
             <div class="box">
                 <i class="fa-solid fa-award"></i>
                 <p class="num">17</p>
-                <h4>Awards Received</h4>
+                <h2>Awards Received</h2>
             </div>
         </div>
     </div>
@@ -393,9 +394,9 @@
     </div>
     <div class="subscribe">
         <div class="container">
-            <form action="">
+            <form action="" method="post">
                 <i class="fa-regular fa-envelope"></i>
-                <input type="email" placeholder="YOUR MAIL">
+                <input type="email" name="subscribe-email" placeholder="YOUR MAIL">
                 <input type="submit" value="SUBSCRIBE" placeholder="SUBSCRIBE">
             </form>
             <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
@@ -411,17 +412,17 @@
                 </p>
             </div>
             <div class="contact-content">
-                <form action="">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <textarea placeholder="Your Messege"></textarea>
+                <form action="" method="post">
+                    <input type="text" name="name" autocomplete="name" placeholder="Your Name">
+                    <input type="email" name="email" autocomplete="email" placeholder="Your Email">
+                    <textarea name="brief" placeholder="Your Messege"></textarea>
                     <input type="submit" value="SEND MESSEGE">
                 </form>
                 <div class="info">
-                    <h4>Get in touch</h4>
+                    <h3>Get in touch</h3>
                     <span class="phone">+00 123 456 789</span><br>
                     <span class="phone">+00 123 456 789</span>
-                    <h4>Where we are</h4>
+                    <h3>Where we are</h3>
                     <address>Awesome Address 17<br>New York, NYC<br>123-4567-890<br>USA</address>
                 </div>
             </div>
